@@ -4,6 +4,7 @@ const path = require('path');
 
 //Serving up HTML
 router.get('/', (req,res) => {
+    
     res.sendFile(path.join(__dirname, '../../public/index.html'))
 });
 
@@ -16,6 +17,7 @@ router.get('/zookeepers', (req,res) => {
 });
 
 router.get('*', (req,res) => {  //Wildcard must go last or everything will go tothis page
+    
     res.sendFile(path.join(__dirname, '../../public/index.html'));
 });
 
