@@ -153,6 +153,24 @@
         "Adamant"
       ],
       "id": "15"
+    },
+    {
+      "name": "Will",
+      "species": "TEST1",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "16"
+    },
+    {
+      "name": "BOBBERT",
+      "species": "MONSTER",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "17"
     }
   ]
 }
