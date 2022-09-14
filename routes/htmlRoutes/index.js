@@ -1,9 +1,6 @@
-const path = require('path');
+
 const router = require('express').Router();
-
-
-
-
+const path = require('path');
 
 //Serving up HTML
 router.get('/', (req,res) => {
