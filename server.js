@@ -9,8 +9,10 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
+
 //Allow the css and js file to be found
 app.use(express.static('public'));
+
 //parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
